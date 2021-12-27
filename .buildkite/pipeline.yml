@@ -1,3 +1,8 @@
-steps:
-  - label: "Example Test"
-    command: echo "Hello Amit!"
+# steps:
+#   - label: "Example Test"
+#     command: echo "Hello Amit!"
+notify:
+    - github_commit_status:
+        context: "my-custom-status"notify:
+    - github_commit_status:
+        context: "my-custom-status"
