@@ -1,6 +1,6 @@
 steps:
   - label: "Example Test"
-    command: echo "Hello Amit,!morning"
+    command: echo "Hello Amit,good morning"
 # notify:
 #     - github_commit_status:
 #         context: "my-custom-status"notify:
